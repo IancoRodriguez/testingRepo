@@ -36,7 +36,7 @@ function evaluateUserInput(input) {
 
 // Manejo inseguro de datos
 function saveUserData() {
-    var userData = document.getElementById("user-data").value;
+    let userData = document.getElementById("user-data").value;
     // Almacenamiento de datos sensibles en localStorage
     localStorage.setItem("userData", userData);
 }
